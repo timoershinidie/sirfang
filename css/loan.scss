@@ -1,0 +1,100 @@
+@charset "utf-8";;
+
+.loan_action{
+    width: 90%;
+    display: flex;
+    margin: 0 auto 0 auto;
+    span{
+        font-size: 1.4rem;
+        color: #000;
+        b{
+            font-size: 1.4rem;
+            color: #39C894;
+        }
+    }
+}
+.loan_appointment{
+    width: 95%;
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+    div{
+        width: 30%;
+        border: 1px solid #39C894;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 1rem 0;
+        span{
+            display: inline-block;
+            width: 5rem;
+            height: 5rem;
+            font-size: 1.8rem;
+            color: #39C894;
+            margin: 0 auto 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #39C894;
+            border-radius: 50%;
+        }
+        p:nth-of-type(1){
+            color: #000;
+            font-size: 1.4rem;
+            text-align: center;
+        }
+        p:nth-of-type(2){
+            color: #666;
+            text-align: center;
+            font-size: 1.4rem;
+        }
+    }
+}
+.loan_house{
+    width: 95%;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    li{
+        width: 49%;
+        border-right:1px solid #EAEAEA ;
+        border-bottom: 1px solid #EAEAEA;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 1rem 0;
+        span{
+            display: inline-block;
+            height: 5rem;
+            width: 5rem;
+            background: #39C894;
+            border-radius:50% ;
+            margin: 0 auto 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 0.5rem;
+            i{
+                color: white;
+                font-size: 2.4rem;
+            }
+        }
+        p{
+            text-align: center;
+            font-size: 1.4rem;
+            color: #000;
+        }
+    }
+    li:nth-of-type(2){
+        border-right:none;
+    }
+    li:nth-of-type(4){
+        border-right:none;
+    }
+}
+.loan_sirfang{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}

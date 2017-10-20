@@ -1,0 +1,127 @@
+.collect_times {
+  width: 100%; }
+  .collect_times p:nth-of-type(1) {
+    padding-top: 1.8rem;
+    padding-bottom: 1.5rem;
+    color: #000;
+    font-size: 1.4rem;
+    margin-top: -1.8rem;
+    margin-left: 1.4rem; }
+    .collect_times p:nth-of-type(1) span {
+      background: #39C894;
+      color: white;
+      font-size: 1.2rem;
+      margin-left: 1rem; }
+  .collect_times ul {
+    display: flex;
+    margin-left: 1.2rem;
+    margin-bottom: 1.5rem; }
+    .collect_times ul li {
+      text-align: left;
+      margin-right: 0.6rem;
+      color: #000;
+      font-size: 1.4rem; }
+      .collect_times ul li span {
+        color: #999;
+        font-size: 1.2rem; }
+  .collect_times p {
+    color: #000;
+    font-size: 1.4rem;
+    margin-left: 1.4rem; }
+    .collect_times p span {
+      color: #999;
+      font-size: 1.2rem; }
+
+.sirfang_More li:nth-of-type(1) span {
+  color: #1B9AF7; }
+
+.collect_action {
+  width: 100%;
+  background: #F4F4F4; }
+  .collect_action .collect_action-a {
+    padding: 1.8rem 0; }
+    .collect_action .collect_action-a span {
+      margin-left: 1rem; }
+    .collect_action .collect_action-a span:nth-of-type(1) {
+      font-size: 1.4rem;
+      color: #000; }
+      .collect_action .collect_action-a span:nth-of-type(1) u {
+        color: #39C894;
+        font-size: 1.4rem; }
+    .collect_action .collect_action-a span:nth-of-type(2) {
+      font-size: 1.4rem;
+      color: #000; }
+      .collect_action .collect_action-a span:nth-of-type(2) b {
+        color: #999; }
+  .collect_action .collect_action-b {
+    width: 100%;
+    border-left: 1px solid #dcdcdc;
+    position: relative;
+    left: 0rem; }
+    .collect_action .collect_action-b span {
+      display: inline-block;
+      line-height: 3rem;
+      text-align: center; }
+    .collect_action .collect_action-b span:nth-of-type(1) {
+      width: 2.25rem;
+      height: 2.25rem;
+      background: #39C894;
+      border-radius: 50%;
+      position: relative;
+      top: 0.8rem;
+      left: 1rem; }
+    .collect_action .collect_action-b span:nth-of-type(2) {
+      color: #39C894;
+      margin-top: -0.3rem;
+      position: relative;
+      left: 0.3rem; }
+    .collect_action .collect_action-b span:nth-of-type(3) {
+      color: #666;
+      font-size: 1.4rem;
+      padding-left: 0.6rem;
+      padding-right: 0.6rem;
+      background: #EAEAEA;
+      height: 3rem;
+      position: relative;
+      left: 0.3rem; }
+    .collect_action .collect_action-b span:nth-of-type(4) {
+      padding-left: 0.6rem;
+      padding-right: 0.6rem;
+      height: 3rem;
+      color: white;
+      background: #39C894; }
+    .collect_action .collect_action-b span:nth-of-type(5) {
+      padding-left: 0.6rem;
+      padding-right: 0.6rem;
+      height: 3rem;
+      color: white;
+      background: #FEB505; }
+    .collect_action .collect_action-b div {
+      position: relative;
+      left: 2rem;
+      border-left: 1px solid #DCDCDC; }
+      .collect_action .collect_action-b div p {
+        font-size: 1.8rem;
+        color: #000;
+        margin: 1.5rem 0;
+        position: relative;
+        left: 3rem; }
+      .collect_action .collect_action-b div ul {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 3rem; }
+        .collect_action .collect_action-b div ul li {
+          width: 30%;
+          margin-left: 0.3rem; }
+          .collect_action .collect_action-b div ul li img {
+            width: 100%; }
+    .collect_action .collect_action-b div:nth-of-type(2) {
+      border-left: 1px solid #DCDCDC; }
+      .collect_action .collect_action-b div:nth-of-type(2) img {
+        width: 70%;
+        position: relative;
+        left: 3rem;
+        margin-bottom: 1.8rem; }
+
+/*# sourceMappingURL=collect.css.map */

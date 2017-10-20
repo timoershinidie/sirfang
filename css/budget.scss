@@ -1,0 +1,200 @@
+@charset "utf-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    outline: none;
+    font-family: "微软雅黑";
+}
+.sirfang_header{
+    width: 100%;
+    div:nth-of-type(2){
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: -0.5rem;
+    }
+}
+.txt{
+    font-size: 1.4rem;
+    color: #000;
+    position: relative;
+    top: -4rem;
+    left: 16rem;
+}
+#budget_banner{
+    width: 100%;
+    .swiper-wrapper{
+        width: 100%;
+        .swiper-slide{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .swiper-pagination{
+        .swiper-pagination-bullet:nth-of-type(1){
+            background: #39C894;
+        }
+        .swiper-pagination-bullet:nth-of-type(2){
+            background: #333;
+        }
+    }
+}
+.budget_sirfang{
+    width: 90%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem 0;
+    color: #000;
+    background: #F4F4F4;
+    margin: 1rem auto 1.8rem auto;
+}
+.budget_zhuyi{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    color: #000;
+    margin-bottom: 2rem;
+}
+.budget_day{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #EAEAEA;
+    span{
+        font-size: 1.4rem;
+        color: #999;
+        display: flex;
+        margin-bottom: 1.5rem;
+        i{
+            font-size: 1.4rem;
+            color: #999;
+            position: relative;
+            left: 0rem;
+        }
+    }
+    span:nth-of-type(1){
+        position: relative;
+        left: -2rem;
+    }
+}
+.budget_fenlei-a{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    li{
+        width: 20%;
+        font-size: 1.2rem;
+        margin: 1rem 0.6rem 0.9rem 0.6rem;
+        color: #999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #EAEAEA;
+        border-radius: 1rem;
+    }
+}
+.budget_fenlei-b{
+    width: 100%;
+    display: flex;
+    margin-bottom: 1.8rem;
+    li{
+        width: 25%;
+        color: #999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #EAEAEA;
+        border-radius: 1rem;
+        margin: 0 0.6rem;
+    }
+}
+.budget_daoyu{
+    width: 100%;
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+.budget_sirfang{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    margin-bottom: 2.5rem;
+    img{
+        width: 80%;
+    }
+}
+.spac_process{
+    margin-bottom: 2rem;
+}
+.budget_share{
+    width: 100%;
+    display: flex;
+    margin-bottom: 1.8rem;
+    div{
+        display: flex;
+        flex-direction: column;
+        span{
+            margin-bottom: 1.15rem;
+        }
+        p{
+            text-align: center;
+        }
+    }
+    div:nth-of-type(1){
+        position: relative;
+        left: 8rem;
+        span{
+           width: 5rem;
+            height: 5rem;
+            border: 1px solid #1B9AF7;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            i{
+                font-size: 2.6rem;
+                color: #1B9AF7;
+            }
+        }
+        p{
+            font-size: 1.4rem;
+            color: #00B2B2;
+        }
+    }
+    div:nth-of-type(2){
+        position: relative;
+        left: 12rem;
+        span{
+           width: 5rem;
+            height: 5rem;
+            border: 1px solid #FEB505;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            i{
+                font-size: 2.6rem;
+                color: #FEB505;
+            }
+        }
+        p{
+            font-size: 1.4rem;
+            color: #FE8864;
+        }
+    }
+}
+.sirfang_list{
+    dl:nth-of-type(4){
+        border: none;
+    }
+}

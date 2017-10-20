@@ -1,0 +1,48 @@
+.programme_Furnishing {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-left: 1rem;
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem; }
+  .programme_Furnishing li {
+    padding: 0rem 0.8rem;
+    border-radius: 1rem;
+    line-height: 2.7rem;
+    border: 1px solid #39C894;
+    color: #39C894;
+    font-size: 1.4rem;
+    float: left; }
+  .programme_Furnishing li:nth-of-type(1) {
+    color: white;
+    background: #39C894;
+    margin-right: 0.6rem; }
+  .programme_Furnishing li:nth-of-type(2) {
+    margin-right: 0.6rem; }
+  .programme_Furnishing li:nth-of-type(3) {
+    margin-right: 0.6rem; }
+  .programme_Furnishing li:nth-of-type(4) {
+    margin-right: 0.6rem; }
+  .programme_Furnishing li:nth-of-type(5) {
+    position: absolute;
+    left: 26rem; }
+
+table {
+  font-size: 0.8333rem;
+  color: #969896;
+  margin-bottom: 1.8rem;
+  border-left: none;
+  border-right: none;
+  border-top: 1px solid #EAEAEA;
+  border-bottom: 1px solid #EAEAEA; }
+  table tr:nth-of-type(1) {
+    color: #39C894; }
+    table tr:nth-of-type(1) td:nth-of-type(1) {
+      width: 9rem; }
+    table tr:nth-of-type(1) td:nth-of-type(2) {
+      width: 8rem; }
+  table tr td {
+    padding: 0.8333rem 0;
+    padding-left: 0.8333rem; }
+
+/*# sourceMappingURL=programme.css.map */

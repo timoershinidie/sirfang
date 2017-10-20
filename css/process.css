@@ -1,0 +1,14 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+  font-family: "微软雅黑"; }
+
+.process_step {
+  width: 100%; }
+  .process_step img {
+    width: 100%; }
+
+/*# sourceMappingURL=process.css.map */

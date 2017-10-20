@@ -1,0 +1,48 @@
+.list_list {
+  width: 100%;
+  background: #F4F4F4; }
+  .list_list div:nth-of-type(1) {
+    width: 100%;
+    padding: 1.25rem 0; }
+    .list_list div:nth-of-type(1) img {
+      width: 100%; }
+  .list_list div:nth-of-type(2) {
+    overflow: hidden;
+    width: 95%;
+    background: white;
+    margin: 0 auto 0 auto;
+    margin-top: -2rem;
+    display: flex; }
+    .list_list div:nth-of-type(2) div:nth-of-type(1) {
+      display: block;
+      width: 60%;
+      margin-left: 1rem; }
+      .list_list div:nth-of-type(2) div:nth-of-type(1) h2 {
+        color: #000;
+        font-size: 1.8rem; }
+      .list_list div:nth-of-type(2) div:nth-of-type(1) span {
+        display: flex;
+        font-size: 1.4rem;
+        color: #FF4351; }
+        .list_list div:nth-of-type(2) div:nth-of-type(1) span p {
+          color: #666; }
+    .list_list div:nth-of-type(2) div:nth-of-type(2) {
+      width: 35%;
+      padding-left: 0.5rem;
+      border-radius: 2rem;
+      height: 4rem;
+      position: relative;
+      top: 3rem;
+      left: 3rem;
+      color: white;
+      font-size: 1.4rem;
+      text-align: center;
+      line-height: 4rem;
+      background: #FF4351; }
+
+.txt {
+  position: absolute;
+  left: 16rem;
+  top: 2rem; }
+
+/*# sourceMappingURL=list.css.map */

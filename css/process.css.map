@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AAEA,CAAC;EACG,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;;AAEvB,aAAa;EACT,KAAK,EAAE,IAAI;EACX,iBAAG;IACC,KAAK,EAAE,IAAI",
+"sources": ["../../../%E5%AE%9E%E8%AE%AD%E4%B8%80/sirfang/css/process.scss"],
+"names": [],
+"file": "process.css"
+}
